@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: aeonik;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 12px 50px;
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 6px 15px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+#intro{
+    height: 35%;
+    width: 100%;
+    
+}
+#intro h1{
+    font-size: 80px;
+    letter-spacing: -1px;
+    line-height: 80px;
+    padding: 8px 40px;
+    font-weight: 550;
+}
+#place {
+    margin-top: 50px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    
+}
+#place h3,#place h4{
+    font-size: 22px;
+    font-weight: 550;
+    padding: 8px 50px;
+    
+}
+#hero-image{
+    height: 90%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64eb08cc036004e0da3be216/64eb08cc036004e0da3be2c2_home-hero.webp);
+    background-size: cover;
+    background-position: center;
+}
+#about{
+    height: 45%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     padding: 50px 50px;
+}
+#about h2{
+    
+    width: 45%;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    letter-spacing: -0 px;
+}
+#about-part2{
+    height: 100%;
+    width: 36%;
+    padding: 0 60px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+#about-part2 h3{
+font-size: 30px;
+font-weight: 550;
+}
+#icon{
+    
+    font-size: 30px;
+   
+    display: flex;
+    
+}
+#icon i{
+    background-color:black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-right: 12px;
+
+}
+#work{
+    height: 45%;
+    width: 100%;
+    border-top: 2px solid black;
+     display: flex;
+    align-items: center;
+    /* justify-content: space-between ; */
+    padding: 50px 60px;
+}
+#work1{
+    width: 30%;
+    
+    height: 100%;
+    border-right: 2px solid black;
+    display: flex;
+   
+    justify-content: space-between;
+    padding-right: 50px;
+
+}
+#work1 h3{
+    font-size: 30px;
+}
+#work i{
+    font-size: 30px;
+}
+#work2{
+    height: 100%;
+    width: 60%;
+    padding: 0 60px;
+    
+   
+}
+.work2-part{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.work2-part:nth-child(1){
+    border-bottom: 2px solid black;
+    padding-top: 0;
+}
+.work2-part .elem{
+    width: 50%;
+    height: 100%;
+}
+.work2-part .elem:nth-child(1)
+{
+    border-right: 2px solid black;
+    padding-right: 50px;
+}
+.work2-part .elem:nth-child(2)
+{
+    padding-left: 60px;
+}
+.work2-part .elem h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.work2-part .elem p{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(79, 78, 78);
+}
